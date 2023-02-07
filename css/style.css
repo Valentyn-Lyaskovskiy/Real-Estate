@@ -48,7 +48,7 @@ body {
 }
 
 [class*="container"] {
-  max-width: 120rem;
+  max-width: 123rem;
   padding: 0 1.5rem;
   margin: 0 auto;
 }
@@ -65,7 +65,7 @@ li {
   flex: 1 1 auto;
 }
 
-.title_center{
+.title_center {
   text-align: center;
 }
 
@@ -247,7 +247,7 @@ li {
 
 /*      How    */
 
-.how{
+.how {
   padding: 22.4rem 0 10.2rem;
 }
 
@@ -259,67 +259,82 @@ li {
   padding: 0 1.7rem 0 5.3rem;
 }
 
-.how__card{
+.how__card {
   display: grid;
   justify-items: center;
 }
 
-.how__img{
+.how__img {
   width: 9rem;
   height: 9rem;
   margin-bottom: 5rem;
   border-radius: 2rem;
   display: flex;
   justify-content: center;
-  align-items:center;
+  align-items: center;
 }
 
-.how__card_1 .how__img{
+.how__card_1 .how__img {
   position: relative;
-  background: #9672FF;
-  box-shadow: 0px 100px 80px rgba(150, 114, 255, 0.07), 0px 64.8148px 46.8519px rgba(150, 114, 255, 0.0531481), 0px 38.5185px 25.4815px rgba(150, 114, 255, 0.0425185), 0px 20px 13px rgba(150, 114, 255, 0.035), 0px 8.14815px 6.51852px rgba(150, 114, 255, 0.0274815), 0px 1.85185px 3.14815px rgba(150, 114, 255, 0.0168519);
+  background: #9672ff;
+  box-shadow: 0px 100px 80px rgba(150, 114, 255, 0.07),
+    0px 64.8148px 46.8519px rgba(150, 114, 255, 0.0531481),
+    0px 38.5185px 25.4815px rgba(150, 114, 255, 0.0425185),
+    0px 20px 13px rgba(150, 114, 255, 0.035),
+    0px 8.14815px 6.51852px rgba(150, 114, 255, 0.0274815),
+    0px 1.85185px 3.14815px rgba(150, 114, 255, 0.0168519);
 }
 
-.how__card_1{
+.how__card_1 {
   position: relative;
 }
 
-.how__card_1::after{
+.how__card_1::after {
   position: absolute;
-  content: '';
+  content: "";
   right: -17.4rem;
   top: 4.1rem;
   max-width: 21rem;
   width: 100%;
   height: 1.1rem;
-  background: url('../img/how-dots-1.svg') 0 0 no-repeat;
+  background: url("../img/how-dots-1.svg") 0 0 no-repeat;
 }
-.how__card_2{
+.how__card_2 {
   position: relative;
 }
 
-.how__card_2::after{
+.how__card_2::after {
   position: absolute;
-  content: '';
+  content: "";
   right: -17.4rem;
   top: 4.1rem;
   max-width: 21rem;
   width: 100%;
   height: 1.1rem;
-  background: url('../img/how-dots-2.svg') 0 0 no-repeat;
+  background: url("../img/how-dots-2.svg") 0 0 no-repeat;
 }
 
-.how__card_2 .how__img{
-  background: #4DDFFD;
-  box-shadow: 0px 100px 80px rgba(77, 223, 253, 0.07), 0px 64.8148px 46.8519px rgba(77, 223, 253, 0.0531481), 0px 38.5185px 25.4815px rgba(77, 223, 253, 0.0425185), 0px 20px 13px rgba(77, 223, 253, 0.035), 0px 8.14815px 6.51852px rgba(77, 223, 253, 0.0274815), 0px 1.85185px 3.14815px rgba(77, 223, 253, 0.0168519);
+.how__card_2 .how__img {
+  background: #4ddffd;
+  box-shadow: 0px 100px 80px rgba(77, 223, 253, 0.07),
+    0px 64.8148px 46.8519px rgba(77, 223, 253, 0.0531481),
+    0px 38.5185px 25.4815px rgba(77, 223, 253, 0.0425185),
+    0px 20px 13px rgba(77, 223, 253, 0.035),
+    0px 8.14815px 6.51852px rgba(77, 223, 253, 0.0274815),
+    0px 1.85185px 3.14815px rgba(77, 223, 253, 0.0168519);
 }
 
-.how__card_3 .how__img{
-  background: #F2B8EC;
-  box-shadow: 0px 100px 80px rgba(242, 184, 236, 0.07), 0px 64.8148px 46.8519px rgba(242, 184, 236, 0.0531481), 0px 38.5185px 25.4815px rgba(242, 184, 236, 0.0425185), 0px 20px 13px rgba(242, 184, 236, 0.035), 0px 8.14815px 6.51852px rgba(242, 184, 236, 0.0274815), 0px 1.85185px 3.14815px rgba(242, 184, 236, 0.0168519);
+.how__card_3 .how__img {
+  background: #f2b8ec;
+  box-shadow: 0px 100px 80px rgba(242, 184, 236, 0.07),
+    0px 64.8148px 46.8519px rgba(242, 184, 236, 0.0531481),
+    0px 38.5185px 25.4815px rgba(242, 184, 236, 0.0425185),
+    0px 20px 13px rgba(242, 184, 236, 0.035),
+    0px 8.14815px 6.51852px rgba(242, 184, 236, 0.0274815),
+    0px 1.85185px 3.14815px rgba(242, 184, 236, 0.0168519);
 }
 
-.how__title:not(:last-child){
+.how__title:not(:last-child) {
   margin-bottom: 7rem;
 }
 
@@ -334,7 +349,7 @@ li {
 
 .how__text {
   font-weight: 400;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   line-height: 162%;
   text-align: center;
   font-size: 1.3rem;
@@ -342,11 +357,14 @@ li {
 
 /*    Best    */
 
-.best{
+.best {
   padding: 12rem 0;
 }
 
-.best__container {
+.best__tab-content-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 3rem;
 }
 
 .best__header {
@@ -364,7 +382,7 @@ li {
   color: #000000;
 }
 
-.best__hesder-content-title:not(:last-child){
+.best__hesder-content-title:not(:last-child) {
   margin-bottom: 1.5rem;
 }
 
@@ -381,25 +399,30 @@ li {
   font-size: 1.7rem;
   line-height: 136%; /* 2.3rem/1.7rem */
   text-align: center;
-  color: #FFFFFF;
-  background: #F85A47;
+  color: #ffffff;
+  background: #f85a47;
   padding: 2.2rem 3.3rem 2rem 3.4rem;
-  box-shadow: 0px 100px 80px rgba(248, 90, 71, 0.07), 0px 64.8148px 46.8519px rgba(248, 90, 71, 0.0531481), 0px 38.5185px 25.4815px rgba(248, 90, 71, 0.0425185), 0px 20px 13px rgba(248, 90, 71, 0.035), 0px 8.14815px 6.51852px rgba(248, 90, 71, 0.0274815), 0px 1.85185px 3.14815px rgba(248, 90, 71, 0.0168519);
+  box-shadow: 0px 100px 80px rgba(248, 90, 71, 0.07),
+    0px 64.8148px 46.8519px rgba(248, 90, 71, 0.0531481),
+    0px 38.5185px 25.4815px rgba(248, 90, 71, 0.0425185),
+    0px 20px 13px rgba(248, 90, 71, 0.035),
+    0px 8.14815px 6.51852px rgba(248, 90, 71, 0.0274815),
+    0px 1.85185px 3.14815px rgba(248, 90, 71, 0.0168519);
   border-radius: 5px;
 }
 
-.best__tabs{
+.best__tabs {
   position: relative;
   margin-bottom: 6rem;
 }
 
-.best__tab:nth-child(1){
+.best__tab:nth-child(1) {
   margin-left: 0;
 }
 
-.best__tab::before{
+.best__tab::before:hover {
   position: absolute;
-  content: '';
+  content: "";
   width: 19rem;
   height: 100%;
   border-bottom: 0.2rem solid #f85a47;
@@ -407,21 +430,31 @@ li {
   top: 0;
 }
 
-.best__tab-content-img:not(:last-child){
+.best__tab-content-img:not(:last-child) {
   margin-right: 2rem;
 }
 
-.best__tab{
-  font-family: 'Manrope';
+.best__tab:hover {
+  color: #f85a47;
+  border-bottom: 0.2rem solid #f85a47;
+  cursor: pointer;
+}
+
+.best__tab {
+  margin-bottom: 1.2rem;
+  transition: all 0.3s ease;
+  font-family: "Manrope";
   font-size: 1.9rem;
   line-height: 137%; /* 26px/19 */
   color: #000000;
   background: none;
   border: 0;
   margin: 0 2.5rem;
+  border-bottom: 0.2rem solid transparent;
 }
 
-.best__tab_active{
+.best__tab_active {
   color: #f85a47;
   margin-bottom: 1.2rem;
+  border-bottom: 0.2rem solid #f85a47;
 }
