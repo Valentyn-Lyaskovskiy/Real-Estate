@@ -1,0 +1,30 @@
+@media (max-width: 119.998em) {
+  [class*="container"] {
+    max-width: 97rem;
+  }
+}
+
+@media (max-width: 99.98em) {
+  [class*="container"] {
+    max-width: 75rem;
+  }
+}
+
+@media (max-width: 76.798em) {
+  [class*="container"] {
+    max-width: none;
+  }
+
+  .header-container {
+    flex-direction: column;
+    min-height: 0;
+  }
+
+  .list {
+    justify-content: center;
+  }
+
+  .list-item-link {
+    font-size: 1.8rem;
+  }
+}
