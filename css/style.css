@@ -361,18 +361,9 @@ li {
   padding: 12rem 0;
 }
 
-.best__tab-content-items {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-  gap: 3rem;
-}
-
 .best__header {
   display: flex;
   justify-content: space-between;
-}
-
-.best__header-content {
 }
 
 .best__hesder-content-title {
@@ -457,4 +448,34 @@ li {
   color: #f85a47;
   margin-bottom: 1.2rem;
   border-bottom: 0.2rem solid #f85a47;
+}
+
+.best__tab-content-image:hover{
+  transform: scale(1.1);
+}
+
+.best__tab-content-image{
+  position: relative;
+  padding-bottom: 81%;
+  display: block;
+  transition: all .5s ease;
+}
+
+.best__tab-content-image img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.best__tab-content-items{
+  display: none;
+}
+
+.best__tab-content-items_active{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 3rem;
 }
