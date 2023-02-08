@@ -425,12 +425,6 @@ li {
   margin-right: 2rem;
 }
 
-.best__tab:hover {
-  color: #f85a47;
-  border-bottom: 0.2rem solid #f85a47;
-  cursor: pointer;
-}
-
 .best__tab {
   margin-bottom: 1.2rem;
   transition: all 0.3s ease;
@@ -443,6 +437,13 @@ li {
   margin: 0 2.5rem;
   border-bottom: 0.2rem solid transparent;
 }
+
+.best__tab:hover {
+  color: #f85a47;
+  border-bottom: 0.2rem solid #f85a47;
+  cursor: pointer;
+}
+
 
 .best__tab_active {
   color: #f85a47;
