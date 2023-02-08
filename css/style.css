@@ -411,22 +411,11 @@ li {
   margin-left: 0;
 }
 
-.best__tab::before:hover {
-  position: absolute;
-  content: "";
-  width: 19rem;
-  height: 100%;
-  border-bottom: 0.2rem solid #f85a47;
-  left: 0;
-  top: 0;
-}
-
 .best__tab-content-img:not(:last-child) {
   margin-right: 2rem;
 }
 
 .best__tab {
-  margin-bottom: 1.2rem;
   transition: all 0.3s ease;
   font-family: "Manrope";
   font-size: 1.9rem;
@@ -436,19 +425,18 @@ li {
   border: 0;
   margin: 0 2.5rem;
   border-bottom: 0.2rem solid transparent;
+  padding-bottom: 1.2rem;
+}
+
+.best__tab_active {
+  color: #f85a47;
+  border-bottom: 0.2rem solid #f85a47;
 }
 
 .best__tab:hover {
   color: #f85a47;
   border-bottom: 0.2rem solid #f85a47;
   cursor: pointer;
-}
-
-
-.best__tab_active {
-  color: #f85a47;
-  margin-bottom: 1.2rem;
-  border-bottom: 0.2rem solid #f85a47;
 }
 
 .best__tab-content-image:hover{
@@ -477,6 +465,7 @@ li {
 
 .best__tab-content-items_active{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   gap: 3rem;
 }
+
