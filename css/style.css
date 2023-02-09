@@ -366,7 +366,8 @@ li {
   justify-content: space-between;
 }
 
-.best__hesder-content-title {
+/* Reusable */
+.unique-title {
   font-weight: 600;
   font-size: 4rem;
   line-height: 137.5%; /* 55px/40 */
@@ -469,3 +470,94 @@ li {
   gap: 3rem;
 }
 
+/*    Week*/
+
+.week{
+  padding: 12rem 0 20rem;
+}
+
+.week__header-content-title:not(:last-child){
+  margin-bottom: 9.5rem;
+}
+
+.week__header-content-title{
+  text-align: center;
+}
+
+.week__body{
+  padding-top: 4rem;
+  background: #F1FFFF;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 8rem;
+}
+
+.week__images-box{
+  display: grid;
+  justify-items: center;
+  height: 65rem;
+}
+
+.week__img_mini{
+  transform: translate(0, -22%);
+}
+
+.week__h3:not(:last-child){
+  margin-bottom: 3rem;
+}
+
+.week__h3{
+  font-weight: 600;
+  font-size: 3.1rem;
+  line-height: 135.5%; /* 42/31 */
+  color: #000000;
+  padding-top: 4rem;
+}
+
+.week__text-box-text{
+  margin-bottom: 4rem;
+  max-width: 34rem;
+  line-height: 150%; /* 24/16 */
+  color: #545A58;
+}
+
+.week__value-one{
+  font-weight: 700;
+  font-size: 1.7rem;
+  line-height: 135.3%; /* 23px/17 */
+  color: #000000;
+}
+
+.week__value-two{
+  font-size: 1.7rem;
+  line-height: 136%; /* 23px/17 */
+  color: #545A58;
+}
+
+.week__right-link:hover{
+  background: #cf4a3b;
+}
+
+.week__right-link{
+  transition: all .5s ease;
+  width: 43.5rem;
+  display: block;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 123%; /* 22px/18 */
+  text-align: center;
+  color: #FFFFFF;
+  padding: 1.6rem 3.7rem 1.5rem 3.8rem;
+  background: #F85A47;
+  box-shadow: 0px 100px 80px rgba(248, 90, 71, 0.07), 0px 64.8148px 46.8519px rgba(248, 90, 71, 0.0531481), 0px 38.5185px 25.4815px rgba(248, 90, 71, 0.0425185), 0px 20px 13px rgba(248, 90, 71, 0.035), 0px 8.14815px 6.51852px rgba(248, 90, 71, 0.0274815), 0px 1.85185px 3.14815px rgba(248, 90, 71, 0.0168519);
+  border-radius: 0.5rem;
+}
+
+.week__options{
+  row-gap: 4rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 7.4rem;
+}
