@@ -1,5 +1,5 @@
- /* 916px */
-
+/*
+/* 916px 
 @media (max-width: 57.25em) { 
   .best__tab{
     margin-left: 0;
@@ -26,7 +26,6 @@
 }
 
 /* 764px */
-
 @media (max-width: 47.75em) { 
 
   .header-container{
@@ -55,12 +54,11 @@
 }
 
 /* 464px */
-
 @media (max-width: 29em) { 
   .best__tab-content-items_active{
     width: 100%;
   }
 }
-
+  
 
 
