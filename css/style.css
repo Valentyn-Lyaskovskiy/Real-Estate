@@ -105,7 +105,7 @@ li {
 .list {
   display: flex;
   column-gap: 4.6rem;
-  row-gap: 0.6rem;
+  row-gap: 3rem;
   flex-wrap: wrap;
 }
 
@@ -185,6 +185,11 @@ li {
   margin-right: -18.8rem;
 }
 
+.main-block-inp::placeholder{
+  opacity: .3;
+  color: #31353B;
+}
+
 .main-block-inp {
   border: 1px solid #dadada;
   background-color: transparent;
@@ -192,6 +197,7 @@ li {
   font-size: 2rem;
   width: 100%;
   flex: 1 1 auto;
+  line-height: 135%; /* 27px/20 */
 }
 
 .main-block-btn:hover{
