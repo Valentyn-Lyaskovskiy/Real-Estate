@@ -58,8 +58,16 @@
   }
 
   .header-container {
-    min-height: none;
     flex-direction: column;
+  }
+  
+  .header-logo{
+    display: block;
+    margin-bottom: 2rem;
+  }
+
+  .footer__container{
+    padding: 0.5rem;
   }
 
   .main-block-title {
@@ -124,6 +132,27 @@
   .main-block-form {
     display: block;
     margin-right: 0;
+  }
+}
+
+/* 524px */
+@media (max-width: 32.75em) {
+  .letter__form {
+    flex-direction: column;
+    padding: 0;
+  }
+  
+  .letter__inp{
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+
+  .letter {
+    padding: 8rem 0 0;
+  }
+
+  .letter__line {
+    margin: 12rem auto 6rem;
   }
 }
 
