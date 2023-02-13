@@ -30,6 +30,27 @@
   .reviews-bottom__partner:last-child {
     margin: 0 0 7rem 0;
   }
+
+  .how__cards {
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(auto, 26rem));
+    gap: 10rem;
+    padding: 0;
+    align-items: baseline;
+  }
+
+  .how__card_3{
+    grid-column: 1 / -1;
+  }
+
+  .how__card_1::after, 
+  .how__card_2::after{
+    display: none;
+  }
+
+  .how__text{
+    max-width: 21rem;
+  }
 }
 
 /* 916px */
@@ -134,6 +155,14 @@
     display: block;
     margin-right: 0;
   }
+
+  .how__cards{
+    grid-template-columns: repeat(1, minmax(auto, 26rem));
+  }
+
+  .how {
+    padding: 12rem 0;
+}
 }
 
 /* 524px */
@@ -154,6 +183,10 @@
 
   .letter__line {
     margin: 12rem auto 6rem;
+  }
+
+  .unique-title{
+    padding-right: 0.5rem;
   }
 }
 
